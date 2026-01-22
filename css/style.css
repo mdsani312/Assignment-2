@@ -12,6 +12,11 @@ header nav {
     background-color: rgba(26, 11, 46, 1);
     overflow: hidden;
 }
+header nav .logo {
+    width: 219px;
+    height: 32px;
+
+}
 header nav ul {
     color: #FFFFFF;
     list-style: none;
@@ -317,7 +322,7 @@ header section .items .hero {
     width: 380px;
     height: 440px;
     background-color: rgba(37, 13, 68, 1);
-    border-radius: 0px 0px 24px 24px;
+    border-radius: 24px 24px 24px 24px;
 }
 .cards iframe {
     border-radius: 24px 24px 0px 0px;
@@ -390,4 +395,49 @@ header section .items .hero {
     justify-content: center;
     align-items: center;
     border-radius: 1000px;
+}
+footer {
+    background: url(../assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 120px;
+}
+footer .main-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    color: white;
+}
+.main-cont .logo2 {
+    width: 410px;
+    height: 60px;
+}
+.main-cont .list-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.main-cont .list-cont li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.list-cont li span {
+    opacity: 0.6;
+}
+.main-cont p {
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.list-cont li span:hover, .main-cont p:hover {
+    opacity: 1;
+    cursor: pointer;
 }
